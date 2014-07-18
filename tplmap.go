@@ -1,10 +1,10 @@
-// Package tplmap is an helper for the native html/template package
+// Package tplmap is an helper for the native html/template package.
 package tplmap
 
 import "html/template"
 
 // TemplateMap is simple map where the key is name of the template
-// and the value is the html/template
+// and the value is the html/template.
 type TemplateMap map[string]*template.Template
 
 // New returns a TemplateMap filled with the templates in parameters.
